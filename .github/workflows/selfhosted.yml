@@ -21,6 +21,7 @@ on:
           - 'ArrowOS 13.1'
           - 'DerpFest 14.0'
           - 'CipherOS 14'
+          - 'Evolution XYZ 14'
           - 'PixelOS 14'
           - 'RisingOS 14'
           - 'LineageOS 18.1'
@@ -138,6 +139,11 @@ jobs:
           export PROJECTFOLDER="/crave-devspaces/Lineage20"
           export PROJECTID="36"
           export REPO_INIT="repo init -u https://github.com/accupara/los20.git -b lineage-20.0 --git-lfs --depth=1"
+        ;;
+        "Evolution XYZ 14")
+          export PROJECTFOLDER="/crave-devspaces/EvolutionXYZ14"
+          export PROJECTID="72"
+          export REPO_INIT="repo init -u https://github.com/Evolution-XYZ/manifest -b udc --git-lfs --depth=1"
         ;;
         "CipherOS 14")
           export PROJECTFOLDER="/crave-devspaces/Cipher14"
